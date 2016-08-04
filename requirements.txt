@@ -4,3 +4,4 @@ Flask-CORS==2.1.2
 Flask-Bootstrap==3.3.6.0
 autoenv==1.0.0
 gunicorn==19.6.0
+Flask-Heroku==0.1.9
