@@ -1,0 +1,5 @@
+Flask==0.11.1
+Flask-Script==2.0.5
+Flask-CORS==2.1.2
+autoenv==1.0.0
+gunicorn==19.6.0
