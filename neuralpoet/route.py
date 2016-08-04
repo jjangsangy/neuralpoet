@@ -5,11 +5,11 @@ from flask import Blueprint, jsonify
 poet = Blueprint('poet', __name__)
 
 
-@app.route('/')
+@poet.route('/')
 def hello():
     return "Hello World!"
 
 
-@app.route('/<name>')
+@poet.route('/<name>')
 def hello_name(name):
     return "Hello {}!".format(name)
