@@ -1,13 +1,13 @@
 from datetime import datetime
 
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, render_template
 
 poet = Blueprint('poet', __name__)
 
 
 @poet.route('/')
-def hello():
-    return "Hello World!"
+def index():
+    return render_template('index.html')
 
 
 @poet.route('/<name>')
