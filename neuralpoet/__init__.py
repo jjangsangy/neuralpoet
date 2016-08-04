@@ -7,6 +7,8 @@ import os
 from flask import Flask
 from flask_cors import CORS
 
+from flask_bootstrap import Bootstrap
+
 from .views.site import site
 
 __title__ = 'neuralpoet'
@@ -19,3 +21,4 @@ app.config.from_object(os.environ['APP_SETTINGS'])
 
 # Enable CORS Configuration
 cors = CORS(app)
+bootstrap = Bootstrap(app)

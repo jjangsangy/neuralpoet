@@ -1,10 +1,8 @@
 import os
 
-from flask_script import Manager, Server
+from flask_script import Manager
 
-from neuralpoet import create_app
-
-app = create_app()
+from neuralpoet import app
 
 manager = Manager(app)
 

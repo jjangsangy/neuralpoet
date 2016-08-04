@@ -1,0 +1,19 @@
+{% extends "bootstrap/base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block head %}
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+    {% endblock %}
+  </head>
+  <body>
+      <div id="content">{% block content %}{% endblock %}</div>
+
+      {% block footer %}
+        <div class="footer">&copy; Copyright 2016 by <a href="http://sanghan.me/">Sang Han</a>.</div>
+      {% endblock %}
+  </body>
+</html>
