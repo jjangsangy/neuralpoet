@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn neuralpoet.wsgi:app --config gunicorn.conf.py
