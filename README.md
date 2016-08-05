@@ -2,14 +2,14 @@
 
 [![License][license badge]][license]
 
-![Story][story]
+<img src="./content/man-picture-mirror.jpg"   text-align="center" width="50%"></img>
 
-The whole approach contains 4 components:
+The whole approach contains `4 components`:
 
--   skip-thought vectors
--   image-sentence embeddings
--   conditional neural language models
--   style shifting
+1.  skip-thought vectors
+2.  image-sentence embeddings
+3.  conditional neural language models
+4.  style shifting
 
 The 'style-shifting' operation is what allows our model to transfer standard image captions to the style of stories from novels. The only source of supervision in our models is from [Microsoft COCO](http://mscoco.org/) captions.
 
