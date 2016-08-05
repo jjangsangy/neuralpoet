@@ -2,6 +2,8 @@ Neural Poet
 ===========
 [![License][License Badge]][License]
 
+![story](./image.jpg)
+
 > We currently run this on Python 3.5
 
 Quickstart
