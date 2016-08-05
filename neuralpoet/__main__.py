@@ -1,3 +1,8 @@
+"""
+Main
+=====
+"""
+
 import click
 
 from sumy.nlp.tokenizers import Tokenizer
