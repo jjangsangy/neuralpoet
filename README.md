@@ -91,5 +91,3 @@ Zhang, Xingxing, and Mirella Lapata. EMNLP. 2014.
 [samim]: https://medium.com/@samim/generating-stories-about-images-d163ba41e4ed
 
 [chinese poetry]: http://www.aclweb.org/old_anthology/D/D14/D14-1074.pdf
-
-[google]: http://arxiv.org/pdf/1511.06349.pdf
