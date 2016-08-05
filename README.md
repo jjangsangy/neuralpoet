@@ -2,7 +2,7 @@ Neural Poet
 ===========
 [![License][License Badge]][License]
 
-![story](./image.jpg)
+![story](./image.jpeg)
 
 > We currently run this on Python 3.5
 
