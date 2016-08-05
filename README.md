@@ -2,9 +2,9 @@
 
 [![License][license badge]][license]
 
-<img src="./content/man-picture-mirror.jpg"   text-align="center" width="50%"></img>
+<img src="content/man-picture-mirror.jpg" display="block" text-align="center" width="50%"></img>
 
-The whole approach contains `4 components`:
+The whole approach contains `4 components`
 
 1.  skip-thought vectors
 2.  image-sentence embeddings
