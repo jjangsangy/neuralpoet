@@ -284,7 +284,7 @@ def summarizer(parser, sentences, language='english'):
 
 
 def alt_extract(url):
-    client = Client('0bfe389411b63e06d6fc530ae122803d0b21ec27')
+    client = Client('')
     api = AlchemyAPI(client)
     req = api.text('url', url)
     if not req['status'] == 'ERROR':
