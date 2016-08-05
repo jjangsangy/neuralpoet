@@ -42,12 +42,14 @@ $ pip install -r requirements.txt
 
 ## Run Server
 
-    $ python manage.py runserver
-    * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+    python manage.py runserver
+    Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
 
 # References
 
-Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, and Sanja Fidler. **"Skip-Thought Vectors."** _arXiv preprint arXiv:1506.06726 (2015)._
+Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, and Sanja Fidler
+
+**"Skip-Thought Vectors."** _arXiv preprint arXiv:1506.06726 (2015)._
 
     @article{kiros2015skip,
       title={Skip-Thought Vectors},
@@ -57,6 +59,7 @@ Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba,
     }
 
 Samuel R. Bowman, Luke Vilnis, Oriol Vinyals, Andrew M. Dai, Rafal J{'{o}}zefowicz Samy Bengio.
+
 **Generating Sentences from a Continuous Space** _<http://arxiv.org/abs/1511.06349>_
 
     @article{DBLP:journals/corr/BowmanVVDJB1
@@ -68,6 +71,7 @@ Samuel R. Bowman, Luke Vilnis, Oriol Vinyals, Andrew M. Dai, Rafal J{'{o}}zefowi
     }
 
 Zhang, Xingxing, and Mirella Lapata. EMNLP. 2014.
+
 **"Chinese Poetry Generation with Recurrent Neural Networks."** <http://www.aclweb.org/old_anthology/D/D14/D14-1074.pdf>
 
     @inproceedings{zhang2014chinese,
