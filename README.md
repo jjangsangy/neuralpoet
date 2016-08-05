@@ -2,7 +2,7 @@
 
 [![License][license badge]][license]
 
-<img src="content/man-picture-mirror.jpg" display="block" text-align="center" width="50%"></img>
+![mirror](content/man-picture-mirror.jpg)
 
 The whole approach contains `4 components`
 
@@ -16,6 +16,8 @@ The 'style-shifting' operation is what allows our model to transfer standard ima
 That is, we did not collect any new training data to directly predict stories given images.
 
 # Quickstart
+
+# Install
 
 ## Clone Repository
 
