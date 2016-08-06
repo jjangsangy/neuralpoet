@@ -16,11 +16,10 @@ __license__ = 'Apache Software License Version 2.0'
 
 app = Flask(__name__, instance_relative_config=True)
 
-if os.path.exists('config.py'):
-    app.config.from_pyfile('config.py')
 
 app.register_blueprint(site)
 app.config.from_object(os.environ['APP_SETTINGS'])
+app.config.from_object(os.environ['APP_SECRET'])
 
 # Enable CORS Configuration
 cors = CORS(app)
