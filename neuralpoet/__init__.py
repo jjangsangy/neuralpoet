@@ -19,9 +19,6 @@ app = Flask(__name__)
 
 app.register_blueprint(site)
 
-for environ in 'APP_SETTINGS', 'APP_SECRET', 'DATABASE_URL':
-    print(environ)
-
 cors = CORS(app)
 bootstrap = Bootstrap(app)
 heroku = Heroku(app)
