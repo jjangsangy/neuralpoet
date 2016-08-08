@@ -3,12 +3,11 @@ from __future__ import print_function
 
 import re
 
+import eatiht
 import requests
+from breadability.readable import Article
 from requests import Request, Session
 from requests.adapters import HTTPAdapter
-
-import eatiht
-from breadability.readable import Article
 from six.moves import urllib
 from sumy.models.dom import ObjectDocumentModel, Paragraph, Sentence
 from sumy.nlp.stemmers import Stemmer
@@ -25,6 +24,7 @@ except ImportError:
 
 
 class Client:
+
     def __init__(self, key=None):
         self.__key = key
 
@@ -45,6 +45,7 @@ class Client:
 
 
 class AlchemyAPI:
+
     def __init__(self, client, base='http://access.alchemyapi.com/calls'):
         self.base = base
         self.client = client

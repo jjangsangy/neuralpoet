@@ -9,3 +9,5 @@ Flask-Debugtoolbar==0.10.0
 Flask-Themes==0.1.3
 Flask-FlatPages==0.6
 Flask-Uploads==0.2.1
+Flask-Assets==0.11
+eatiht

@@ -1,9 +1,56 @@
-{% extends "base.html" %}
-
-{% block content %}
+{% extends "base.html" %} {% block css %} {{super()}}
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" /> {% endblock %} {% block navigation %}
+<div class="navbar navbar-default navbar-fixed-top headroom" role="navigation">
     <div class="container">
-      <h1>Welcome to Flask!</h2>
-      <br>
-      <p>Click <a href="/">here</a> to go home.</p>
-    </div>
-{% endblock %}
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://sanghan.me/" class="navbar-brand">
+
+                <span class="fa-stack fa-large">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-flask pull-center fa-stack-1x"></i>
+                </span> LightQuanta
+            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="http://sanghan.me/pages/about.html">
+                        <i class="fa fa-beer"></i>
+                        <span class="icon-label">About&nbsp;Me</span></a>
+                </li>
+                <li>
+                    <a href="http://sanghan.me/pages/projects.html">
+                        <i class="fa fa-code"></i>
+                        <span class="icon-label">Projects</span></a>
+                </li>
+                <li>
+                    <a href="http://sanghan.me/pages/skills.html">
+                        <i class="fa fa-graduation-cap"></i>
+                        <span class="icon-label">Skills</span></a>
+                </li>
+                <li>
+                    <a href="http://sanghan.me/pages/tools.html">
+                        <i class="fa fa-wrench"></i>
+                        <span class="icon-label">Tools</span></a>
+                </li>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--Dropdown Categories-->
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="http://sanghan.me/category/articles.html">Articles</a></li>
+                            <li><a href="http://sanghan.me/category/personal.html">Personal</a></li>
+                            <li><a href="http://sanghan.me/category/programming.html">Programming</a></li>
+                            <li><a href="http://sanghan.me/category/python-programming.html">Python, programming</a></li>
+                            <li><a href="http://sanghan.me/category/quotes.html">Quotes</a></li>
+                            <li><a href="http://sanghan.me/category/tumblr.html">Tumblr</a></li>
+                        </ul>
+                    </li>
+
+                    {% endblock %} {% block content %} {{super()}} {% endblock %}
