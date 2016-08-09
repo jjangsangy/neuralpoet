@@ -4,20 +4,12 @@
 Neural Poet
 {% endblock %}
 
-{% block css %}
-{{super()}}
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" />
-{% endblock %}
-
-{% block navigation %}
-{% endblock %}
-
 {% block content %}
-<form action="/" method="post">
+<h1>Summarize</h1>
+<form action="/summary" method="post">
   <div class="form-group">
     <label for="{{ form.url }}">Summary URL</label>
-    <input type="url" class="form-control" id="URL" placeholder="Site URL">
+    <input type="url" class="form-control" id="URL" placeholder="Summarize URL" name="summary">
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
