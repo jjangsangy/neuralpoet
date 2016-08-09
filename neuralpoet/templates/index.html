@@ -14,5 +14,11 @@ Neural Poet
 {% endblock %}
 
 {% block content %}
-{{super()}}
+<form action="/" method="post">
+  <div class="form-group">
+    <label for="{{ form.url }}">Summary URL</label>
+    <input type="url" class="form-control" id="URL" placeholder="Site URL">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 {% endblock %}

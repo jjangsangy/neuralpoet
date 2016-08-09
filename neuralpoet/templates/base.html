@@ -8,7 +8,8 @@
     <meta name="author" content="Sang Han" />
     <title>{% block title %}{% endblock %}</title>
     {% block css %}
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> {% endblock %}
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    {% endblock %}
   </head>
 
   <body class="{% block bodyclass %}{% endblock %}">
@@ -26,7 +27,7 @@
     </header>
 
     <div role="main">
-      {% block main %}Content goes here...{% endblock %}
+      {% block content %}Content goes here...{% endblock %}
     </div>
 
     <footer class="page-footer" role="contentinfo">
@@ -41,6 +42,7 @@
       document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':1348/livereload.js"><\/script>')
     </script>
     {%- endif %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 

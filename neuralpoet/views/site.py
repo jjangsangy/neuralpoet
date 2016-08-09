@@ -1,10 +1,11 @@
-from datetime import datetime
+from flask import Blueprint, render_template
 
-from flask import Blueprint, jsonify, render_template
+from ..forms import LinkForm
 
 site = Blueprint('site', __name__)
 
 
-@site.route('/')
+@site.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    form = LinkForm()
+    return render_template('index.html', form=form)
