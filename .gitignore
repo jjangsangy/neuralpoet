@@ -50,5 +50,7 @@ bower_components/
 neuralpoet/static/css/lib/
 neuralpoet/static/js/lib/
 instance/**
+models
+images
 # }}}
 #
