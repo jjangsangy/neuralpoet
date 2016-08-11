@@ -7,3 +7,6 @@
 [submodule "neural-storyteller"]
 	path = neural-storyteller
 	url = https://github.com/ryankiros/neural-storyteller.git
+[submodule "neuralpoet/neuraltalk2"]
+	path = neuralpoet/neuraltalk2
+	url = https://github.com/karpathy/neuraltalk2.git
