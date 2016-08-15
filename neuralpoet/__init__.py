@@ -19,6 +19,8 @@ app = Flask(__name__)
 
 app.register_blueprint(site)
 
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', '6OQVZqJjewdE0JesYjAYNaDpz2W+t0z')
+
 cors = CORS(app)
 bootstrap = Bootstrap(app)
 heroku = Heroku(app)

@@ -1,5 +1,2 @@
 venv/**
 data/*
-neuralpoet/models/*
-neuralpoet/neuraltalk2/models/*
-*/*t7
