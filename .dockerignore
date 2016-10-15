@@ -1,2 +1,3 @@
 venv/**
 data/*
+neuralpoet/models/**.t7
